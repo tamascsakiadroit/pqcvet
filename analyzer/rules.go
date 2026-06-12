@@ -1,6 +1,6 @@
 package analyzer
 
-import "pqcvet/finding"
+import "github.com/tamascsakiadroit/pqcvet/finding"
 
 // Rule describes one cryptographic-asset detection. Rules are matched by
 // resolved package import path plus symbol name, never by string-matching

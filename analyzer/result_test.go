@@ -5,8 +5,8 @@ import (
 
 	"golang.org/x/tools/go/analysis/analysistest"
 
-	"pqcvet/analyzer"
-	"pqcvet/finding"
+	"github.com/tamascsakiadroit/pqcvet/analyzer"
+	"github.com/tamascsakiadroit/pqcvet/finding"
 )
 
 // TestResultRecordsSafe confirms that safe (PQC) algorithm usage is recorded

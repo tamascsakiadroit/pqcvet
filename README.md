@@ -9,12 +9,14 @@ in Go source. Built on `golang.org/x/tools/go/analysis`, so it composes with
 Requires Go 1.25 or later (`x/tools` v0.46.0 floor; `crypto/mlkem`
 detection works on the same toolchain).
 
-The module path `pqcvet` is a local placeholder; `go install` will not
-resolve until the module is republished under a distribution path
-(e.g. `github.com/<you>/pqcvet`). For now, clone and build from source:
+```sh
+go install github.com/tamascsakiadroit/pqcvet/cmd/pqcvet@latest
+```
+
+Or build from source:
 
 ```sh
-git clone <repo> && cd pqcvet
+git clone https://github.com/tamascsakiadroit/pqcvet.git && cd pqcvet
 go build ./cmd/pqcvet
 ```
 

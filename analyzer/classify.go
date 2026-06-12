@@ -1,6 +1,6 @@
 package analyzer
 
-import "pqcvet/finding"
+import "github.com/tamascsakiadroit/pqcvet/finding"
 
 // classify implements the severity matrix from the spec §3:
 //

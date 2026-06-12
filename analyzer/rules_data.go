@@ -1,6 +1,6 @@
 package analyzer
 
-import "pqcvet/finding"
+import "github.com/tamascsakiadroit/pqcvet/finding"
 
 // rules is the v1 detection table. Adding a package is one entry, not new code.
 // Keep entries grouped by package and ordered from most-specific to least.

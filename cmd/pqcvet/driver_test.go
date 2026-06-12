@@ -4,7 +4,7 @@ import (
 	"go/token"
 	"testing"
 
-	"pqcvet/finding"
+	"github.com/tamascsakiadroit/pqcvet/finding"
 )
 
 func TestExtractFormat(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/tools/go/analysis/analysistest"
 
-	"pqcvet/analyzer"
+	"github.com/tamascsakiadroit/pqcvet/analyzer"
 )
 
 func TestAnalyzer(t *testing.T) {

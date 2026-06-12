@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"pqcvet/finding"
+	"github.com/tamascsakiadroit/pqcvet/finding"
 )
 
 // formatMessage builds the linter-facing message from a Finding. Centralized

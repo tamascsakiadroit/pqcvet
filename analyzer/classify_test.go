@@ -3,7 +3,7 @@ package analyzer
 import (
 	"testing"
 
-	"pqcvet/finding"
+	"github.com/tamascsakiadroit/pqcvet/finding"
 )
 
 // TestClassifyMatrix pins every cell of the severity matrix independently of

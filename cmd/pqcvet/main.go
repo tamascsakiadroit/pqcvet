@@ -26,8 +26,8 @@ import (
 
 	"golang.org/x/tools/go/analysis/singlechecker"
 
-	"pqcvet/analyzer"
-	"pqcvet/finding"
+	"github.com/tamascsakiadroit/pqcvet/analyzer"
+	"github.com/tamascsakiadroit/pqcvet/finding"
 )
 
 // Exit codes intentionally mirror singlechecker / go vet so JSON and text

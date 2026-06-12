@@ -9,8 +9,8 @@ import (
 	"golang.org/x/tools/go/analysis/checker"
 	"golang.org/x/tools/go/packages"
 
-	"pqcvet/analyzer"
-	"pqcvet/finding"
+	"github.com/tamascsakiadroit/pqcvet/analyzer"
+	"github.com/tamascsakiadroit/pqcvet/finding"
 )
 
 // Report is the top-level JSON payload. Envelope kept thin on purpose so a

@@ -18,13 +18,13 @@ import (
 	"golang.org/x/tools/go/analysis/passes/inspect"
 	"golang.org/x/tools/go/ast/inspector"
 
-	"pqcvet/finding"
+	"github.com/tamascsakiadroit/pqcvet/finding"
 )
 
-// Analyzer.ResultType is part of the public contract: callers that
-// construct an analysis.Pass manually (see cmd/pqcvet/driver.go for the
-// JSON path) rely on Run returning []finding.Finding. Keep the declared
-// type and the run() return shape in sync.
+// Analyzer.ResultType is part of the public contract: the JSON driver (and
+// any other go/analysis caller using checker.Analyze) reads each action's
+// Result as []finding.Finding. Keep the declared type and the run() return
+// shape in sync.
 var Analyzer = &analysis.Analyzer{
 	Name:       "pqcvet",
 	Doc:        "flags quantum-vulnerable cryptography usage and records cryptographic assets",

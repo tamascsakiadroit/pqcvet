@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"pqcvet/finding"
+	"github.com/tamascsakiadroit/pqcvet/finding"
 )
 
 // TestFormatMessage pins the diagnostic format independently of the

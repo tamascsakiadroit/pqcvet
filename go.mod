@@ -1,4 +1,4 @@
-module pqcvet
+module github.com/tamascsakiadroit/pqcvet
 
 go 1.25.0
 
