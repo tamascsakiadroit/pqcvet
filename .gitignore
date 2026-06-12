@@ -1,0 +1,13 @@
+# IDEs
+.idea/
+*.iml
+.vscode/
+
+# Built binaries
+/pqcvet
+/dist/
+
+# Go test/coverage artifacts
+*.test
+*.out
+coverage.txt
